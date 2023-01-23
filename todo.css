@@ -1,1 +1,21 @@
+h1{
+    font-family: 'Orbitron', sans-serif;
+}
+input{
+    font-family: 'Yantramanav', sans-serif;
+    border: 2px solid rgb(235, 233, 233);
+    border-radius:10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 4rem;
+    padding-left: 10px;
+}
+button{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid rgb(235, 233, 233);
+    border-radius:10px;
+    padding:1rem;
+}
 

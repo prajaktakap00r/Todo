@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
     <title>Todo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+            </style>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap');
+                </style>
 </head>
 <body>
-    <h1>LOL</h1>
-</body>
+    <div id="container">
+        <h1>Task's Mine</h1>
+        <form action="/form" id="mainForm">
+            <input type="text" placeholder="Write down today's tasks">
+            <button>Add it</button>
+        </form>
+        <ul id="TodoList"></ul>
+    </div>
+    <script src="todo.js"></script>
+    <script src="functions/f1.js"></script>
+    </body>
 </html>
